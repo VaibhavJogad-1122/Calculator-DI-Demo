@@ -1,0 +1,16 @@
+package com.example.demo.model;
+
+import com.example.demo.service.Calculator;
+
+public class User {
+
+    private Calculator calculator;
+
+    public User(Calculator calculator) {
+        this.calculator = calculator;
+    }
+
+    public int performCalculation(int a, int b) {
+        return calculator.calculate(a, b);
+    }
+}

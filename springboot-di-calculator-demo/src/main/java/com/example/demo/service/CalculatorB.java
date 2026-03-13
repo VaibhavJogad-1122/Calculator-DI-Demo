@@ -1,0 +1,14 @@
+package com.example.demo.service;
+
+import com.example.demo.service.Calculator;
+import org.springframework.stereotype.Service;
+
+
+@Service("calculatorB")
+public class CalculatorB implements Calculator {
+
+    @Override
+    public int calculate(int a, int b) {
+        return a * b;
+    }
+}

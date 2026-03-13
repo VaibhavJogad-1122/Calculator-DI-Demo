@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+D:\DependencyInjection\.metadata\.plugins\org.eclipse.jdt.core
+3556666939.index
+1865797976.index
+607970351.index
